@@ -85,7 +85,7 @@ export default function Simulador() {
           </p>
         </div>
       </div>
-      <div className="p-[1px] md:p-4">
+      <div className="p-[1px] md:px-4">
         <div className="border-[1px] border-[#eee] p-2 w-[100%] rounded-lg text-center shadow-sm">
           <p className="text-[14px] font-bold">Renda mensal</p>
           <p className="text-[#9ca3af] w-full text-center border-[1px] border-[#eee] rounded-lg p-1 mt-2 transition-all duration-500">
