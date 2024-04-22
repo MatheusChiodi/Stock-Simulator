@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #f8fafb !important;
+  max-width: 2000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+p,
+spam,
+h1 {
+  color: #343f59;
+}
