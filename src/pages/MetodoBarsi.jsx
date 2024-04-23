@@ -65,14 +65,6 @@ export default function MetodoBarsi() {
 
   return (
     <div className="w-full h-full overflow-auto m-0 p-0 flex flex-col justify-center gap-3">
-      <p className="border-b border-[#eee] pb-3 hidden md:block transition-all duration-500">
-        O <span className="text-[#ff5555]">Método Barsi</span> é uma estratégia
-        de investimento que determina um preço máximo para a compra de ações,
-        baseado na análise de fatores como lucratividade, histórico de
-        dividendos e saúde financeira das empresas. Ele enfatiza a escolha de
-        empresas sólidas e a manutenção dos investimentos a longo prazo, visando
-        a geração de renda passiva por meio dos dividendos.
-      </p>
       <div>
         <p className="font-bold w-full text-center mb-2 md:mb-0">
           Dividendos pagos nos ultimos 3 anos

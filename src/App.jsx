@@ -15,7 +15,7 @@ function App() {
     <div className="flex flex-row">
       <Header onPage={handlePage} page={page} />
       <div className="p-5 w-full h-screen transition-all duration-500 flex justify-center items-center">
-        <div className="bg-white w-full h-[90%] rounded-xl border-[1px] border-[#eaeef0] p-5 shadow-sm overflow-auto">
+        <div className="bg-white w-full h-[90%] rounded-xl border-[1px] border-[#eaeef0] p-5 shadow-sm ">
           {page === 'simulador' && <Simulador />}
           {page === 'metodoBarsi' && <MetodoBarsi />}
         </div>
