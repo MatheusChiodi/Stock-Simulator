@@ -3,7 +3,7 @@ export default function Header({ onPage, page }) {
     <div className="h-screen border-x-[1px] border-[#eee] w-[60px] md:w-[190px]">
       <div className="flex flex-row items-center gap-2 pl-1 mt-5 border-b-[1px] border-[#eee] pb-3 ">
         <img
-          src="/logo.png"
+          src="logo.png"
           alt="logo"
           className="w-[30px] h-[30px] ml-[9px] md:ml-0 transition-all duration-500"
         />
