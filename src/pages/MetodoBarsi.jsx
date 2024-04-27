@@ -45,21 +45,17 @@ export default function MetodoBarsi() {
       const anoPosteriorTotal =
         anoPosterior1Float + anoPosterior2Float + anoPosterior3Float;
       setAnoPosteriorTotal(anoPosteriorTotal.toFixed(2));
-      console.log(anoPosteriorTotal.toFixed(2));
 
       const anoPosteriorTotalDivididoPor3 = anoPosteriorTotal / 3;
       setAnoPosteriorTotalDivididoPor3(
         anoPosteriorTotalDivididoPor3.toFixed(2)
       );
-      console.log(anoPosteriorTotalDivididoPor3.toFixed(2));
 
       const anoPosteriorTotalDivididoPor6Porcento =
         (anoPosteriorTotalDivididoPor3 * 100) / 6;
       setPrecoTeto(
         formatCurrency(anoPosteriorTotalDivididoPor6Porcento.toFixed(2))
       );
-
-      console.log(anoPosteriorTotalDivididoPor6Porcento.toFixed(2));
     }
   }, [anoPosterior1, anoPosterior2, anoPosterior3]);
 
